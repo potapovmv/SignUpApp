@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 
     
     @IBOutlet weak var usernameTF: UITextField!
@@ -56,6 +56,5 @@ class LoginViewController: UIViewController {
         usernameTF.text = nil
         passwordTF.text = nil
     }
-    
 }
 
