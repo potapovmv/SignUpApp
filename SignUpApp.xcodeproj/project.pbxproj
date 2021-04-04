@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B24AAC022617373B00071754 /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24AAC012617373B00071754 /* PersonalInfoViewController.swift */; };
+		B24AAC042617376700071754 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24AAC032617376700071754 /* MoreInfoViewController.swift */; };
+		B24AAC0D2619DB9600071754 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24AAC0C2619DB9600071754 /* User.swift */; };
+		B24AAC0F2619DBA100071754 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24AAC0E2619DBA100071754 /* Person.swift */; };
+		B2B18C87261A020F00513FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B18C86261A020F00513FEF /* Assets.xcassets */; };
 		B2EC000126126D04009F293A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EC000026126D04009F293A /* WelcomeViewController.swift */; };
 		B2ECFFED26126439009F293A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECFFEC26126439009F293A /* AppDelegate.swift */; };
 		B2ECFFEF26126439009F293A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECFFEE26126439009F293A /* SceneDelegate.swift */; };
 		B2ECFFF126126439009F293A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2ECFFF026126439009F293A /* ViewController.swift */; };
 		B2ECFFF426126439009F293A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ECFFF226126439009F293A /* Main.storyboard */; };
-		B2ECFFF62612643E009F293A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2ECFFF52612643E009F293A /* Assets.xcassets */; };
 		B2ECFFF92612643E009F293A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ECFFF72612643E009F293A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B24AAC012617373B00071754 /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		B24AAC032617376700071754 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
+		B24AAC0C2619DB9600071754 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B24AAC0E2619DBA100071754 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B2B18C86261A020F00513FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2EC000026126D04009F293A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B2ECFFE926126439009F293A /* SignUpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2ECFFEC26126439009F293A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2ECFFEE26126439009F293A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2ECFFF026126439009F293A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B2ECFFF326126439009F293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B2ECFFF52612643E009F293A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2ECFFF82612643E009F293A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2ECFFFA2612643E009F293A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -39,6 +47,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B24AAC072619D1A000071754 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B24AAC0C2619DB9600071754 /* User.swift */,
+				B24AAC0E2619DBA100071754 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B24AAC082619D23A00071754 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2B18C86261A020F00513FEF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B24AAC092619D24F00071754 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				B2ECFFFA2612643E009F293A /* Info.plist */,
+				B2ECFFEC26126439009F293A /* AppDelegate.swift */,
+				B2ECFFEE26126439009F293A /* SceneDelegate.swift */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		B25AB2BF2616FC470092B747 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2ECFFF026126439009F293A /* ViewController.swift */,
+				B24AAC012617373B00071754 /* PersonalInfoViewController.swift */,
+				B24AAC032617376700071754 /* MoreInfoViewController.swift */,
+				B2EC000026126D04009F293A /* WelcomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B25AB2C02616FC740092B747 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B2ECFFF72612643E009F293A /* LaunchScreen.storyboard */,
+				B2ECFFF226126439009F293A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		B2ECFFE026126438009F293A = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +113,11 @@
 		B2ECFFEB26126439009F293A /* SignUpApp */ = {
 			isa = PBXGroup;
 			children = (
-				B2ECFFEC26126439009F293A /* AppDelegate.swift */,
-				B2ECFFEE26126439009F293A /* SceneDelegate.swift */,
-				B2ECFFF026126439009F293A /* ViewController.swift */,
-				B2ECFFF226126439009F293A /* Main.storyboard */,
-				B2EC000026126D04009F293A /* WelcomeViewController.swift */,
-				B2ECFFF52612643E009F293A /* Assets.xcassets */,
-				B2ECFFF72612643E009F293A /* LaunchScreen.storyboard */,
-				B2ECFFFA2612643E009F293A /* Info.plist */,
+				B25AB2BF2616FC470092B747 /* ViewControllers */,
+				B24AAC072619D1A000071754 /* Models */,
+				B25AB2C02616FC740092B747 /* Storyboards */,
+				B24AAC092619D24F00071754 /* Supporting */,
+				B24AAC082619D23A00071754 /* Resources */,
 			);
 			path = SignUpApp;
 			sourceTree = "<group>";
@@ -129,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2ECFFF92612643E009F293A /* LaunchScreen.storyboard in Resources */,
-				B2ECFFF62612643E009F293A /* Assets.xcassets in Resources */,
+				B2B18C87261A020F00513FEF /* Assets.xcassets in Resources */,
 				B2ECFFF426126439009F293A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,6 +195,10 @@
 			files = (
 				B2ECFFF126126439009F293A /* ViewController.swift in Sources */,
 				B2EC000126126D04009F293A /* WelcomeViewController.swift in Sources */,
+				B24AAC022617373B00071754 /* PersonalInfoViewController.swift in Sources */,
+				B24AAC042617376700071754 /* MoreInfoViewController.swift in Sources */,
+				B24AAC0D2619DB9600071754 /* User.swift in Sources */,
+				B24AAC0F2619DBA100071754 /* Person.swift in Sources */,
 				B2ECFFED26126439009F293A /* AppDelegate.swift in Sources */,
 				B2ECFFEF26126439009F293A /* SceneDelegate.swift in Sources */,
 			);
@@ -290,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RCJ93M3YP3;
-				INFOPLIST_FILE = SignUpApp/Info.plist;
+				INFOPLIST_FILE = SignUpApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RCJ93M3YP3;
-				INFOPLIST_FILE = SignUpApp/Info.plist;
+				INFOPLIST_FILE = SignUpApp/Supporting/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
